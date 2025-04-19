@@ -9,17 +9,17 @@ def update_time():
 
 # Create the main window
 root = tk.Tk()
-root.title("Python Clock")
-root.geometry("300x100")
+root.title("Nathan's Clock")
+root.geometry("500x200")
 root.resizable(False, False)
 root.configure(bg="black")
 
 # Create a label to display the time
 time_label = tk.Label(
     root, 
-    font=('Helvetica', 36, 'bold'),
+    font=('Helvetica', 48, 'bold'),
     background='black',
-    foreground='#00FF00'  # Green text
+    foreground='#FFFFFF'  # White text
 )
 time_label.pack(anchor='center', fill='both', expand=1)
 
